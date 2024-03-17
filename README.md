@@ -1,5 +1,3 @@
-## 
-
 ## links
 
 - [GitHub](https://github.com/mazurkin/)
