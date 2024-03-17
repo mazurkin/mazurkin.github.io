@@ -9,7 +9,9 @@ build-html:
 		--from markdown \
 		--to html \
 		--standalone \
+		--self-contained \
 		--metadata title="Nick Mazurkin - personal page" \
+		--css css/pandoc.css \
 		--output index.html \
 		README.md
 
