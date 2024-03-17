@@ -1,0 +1,18 @@
+/* TEAM */
+
+    This is a personal page of Nick Mazurkin.
+
+    You can call me Nikolai, Nikolay, Nickolay or just Nick.
+
+    Thank you for visiting my page!
+
+/* THANKS */
+
+    To everyone in my life.
+
+/* SITE */
+
+	Language: English
+	Doctype: HTML5
+	IDE: GNU, Linux, Pandoc, Markdown, Make
+

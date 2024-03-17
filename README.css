@@ -1,0 +1,152 @@
+/* about */
+
+section#about h1 {
+    display: none;
+}
+
+/* avatar */
+
+section#about div#avatar {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+section#about div#avatar img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid rgba(16, 16, 48, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+section#about div#avatar img:hover {
+    border: 5px solid rgba(16, 16, 48, 0.5);
+    transform: scale(1.2);
+}
+
+/* resume badge */
+
+section#resume img#swe {
+    width: 60px;
+    opacity: 0.95;
+    animation: swe_badge_base 5s ease infinite;
+    background: transparent;
+    filter: drop-shadow(2px 2px 3px #666666);
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+section#resume img#swe:hover {
+    width: 120px;
+    opacity: 0.80;
+    animation: swe_badge_hover 0.5s ease infinite;
+}
+
+@keyframes swe_badge_base {
+  0% { transform: translate(0, 0) rotate(0); }
+  95% { transform: translate(1px, 1px) rotate(0deg); }
+  96% { transform: translate(-1px, -1px) rotate(-1deg); }
+  97% { transform: translate(-1px, 0px) rotate(1deg); }
+  98% { transform: translate(1px, 0px) rotate(0deg); }
+  99% { transform: translate(1px, -1px) rotate(1deg); }
+  100% { transform: translate(0, 0) rotate(0); }
+}
+
+@keyframes swe_badge_hover {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -1px) rotate(-1deg); }
+  20% { transform: translate(-1px, 0px) rotate(1deg); }
+  30% { transform: translate(1px, 0px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 1px) rotate(-1deg); }
+  60% { transform: translate(-1px, 1px) rotate(0deg); }
+  70% { transform: translate(1px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(0px, 1px) rotate(0deg); }
+  100% { transform: translate(1px, -1px) rotate(-1deg); }
+}
+
+/* resume table */
+
+section#resume table {
+    width: 100%;
+    border: 1px solid rgba(16, 16, 48, 0.5);
+    margin-bottom: 14px;
+}
+
+section#resume table thead tr {
+    background-color: rgba(16, 16, 48, 0.5);
+}
+
+section#resume table thead tr th {
+    color: #eeeedd;
+    padding: 10px 6px 10px 6px;
+}
+
+section#resume table tbody tr {
+    background-color: #dddddd;
+}
+
+section#resume table tbody tr:hover {
+    background-color: #d0d0d0;
+}
+
+section#resume table tbody tr td {
+    padding: 8px 6px 6px 6px;
+}
+
+section#resume table tbody tr td a {
+    text-decoration-style: dotted;
+    text-decoration-thickness: 0.1em;
+}
+
+/* contacts */
+
+section#contacts ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+section#contacts ul li {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+section#contacts ul li img {
+    width: 16px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+section#contacts ul li a {
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+/* links */
+
+section#links ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+section#links ul li {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+section#links ul li img {
+    width: 16px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+section#links ul li a {
+    line-height: 20px;
+    vertical-align: middle;
+}
