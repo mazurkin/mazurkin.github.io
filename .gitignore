@@ -1,0 +1,13 @@
+.idea
+*.iml
+*.ipr
+*.iws
+
+.DS_Store
+__pycache__
+
+/*.log
+/*.bak
+
+/output
+/target

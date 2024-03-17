@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /doc/
+Disallow: /file/
+Disallow: /html/
+Disallow: /misc/

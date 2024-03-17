@@ -1,0 +1,40 @@
+<script>
+    $(document).ready(function() {
+        // GA tag events
+        function gtag_anchor_resource(event, anchor, document) {
+            const link = $(anchor).attr('href');
+            const resource = link.split('/').pop();
+
+            gtag('event', 'select_content', {
+                'content_type': document,
+                'content_id': resource,
+            });
+        }
+
+        $('a[href^="/doc/cv/"]').on('click', function(event) {
+            gtag_anchor_resource(event, this, 'cv');
+        });
+
+        $('a[href^="/doc/resume/"]').on('click', function(event) {
+            gtag_anchor_resource(event, this, 'resume');
+        });
+
+        $('a[href^="/file/pgp/"]').on('click', function(event) {
+            gtag_anchor_resource(event, this, 'pgp');
+        });
+
+        $('a[href^="/file/ssh/"]').on('click', function(event) {
+            gtag_anchor_resource(event, this, 'ssh');
+        });
+
+        // resume badge
+        // noinspection HtmlRequiredAltAttribute,RequiredAttributes
+        const badge = $('<img/>', {
+            id: 'swe',
+            src: '/i/badge-swe-sat.png',
+            alt: 'SWE expert badge',
+        });
+
+        $('section#resume').prepend(badge);
+    });
+</script>
