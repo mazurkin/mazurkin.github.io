@@ -13,10 +13,10 @@ build-html:
 		--metadata title="Nick Mazurkin - personal page" \
 		--css css/pandoc.css \
 		--output index.html \
-		README.md
+		index.md
 
 spell-check:
-	@aspell list --mode=markdown --lang=en --personal=$$(pwd)/misc/aspell.list < README.md
+	@aspell list --mode=markdown --lang=en --personal=$$(pwd)/misc/aspell.list < index.md
 
 spell-edit:
-	@aspell check --mode=markdown --lang=en --personal=$$(pwd)/misc/aspell.list --dont-backup README.md
+	@aspell check --mode=markdown --lang=en --personal=$$(pwd)/misc/aspell.list --dont-backup index.md
