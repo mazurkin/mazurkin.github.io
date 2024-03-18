@@ -1,17 +1,26 @@
 SHELL := /bin/bash
 
+# STYLES
+# https://benjam.info/panam/
+# https://jez.io/tufte-pandoc-css/
+
 .PHONY: build build-html spell-check spell-edit
 
 build: spell-check build-html
 
 build-html:
 	@pandoc \
-		--from markdown \
-		--to html \
+		--from markdown+smart \
+		--to html5 \
 		--standalone \
 		--self-contained \
-		--metadata title="Nick Mazurkin - personal page" \
-		--css css/pandoc.css \
+		--toc \
+		--metadata pagetitle="Nikolai Mazurkin - personal page" \
+		--metadata title="Nikolai Mazurkin" \
+		--variable lang=en \
+		--variable highlighting-css= \
+		--css css/styling.css \
+		--mathjax \
 		--output index.html \
 		README.md
 
