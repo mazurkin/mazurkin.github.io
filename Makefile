@@ -19,6 +19,7 @@ build-html:
 		--variable lang=en \
 		--variable highlighting-css= \
 		--include-in-header misc/gtag.html \
+		--include-in-header misc/favicon.html \
 		--css css/styling.css \
 		--mathjax \
 		--output index.html \
