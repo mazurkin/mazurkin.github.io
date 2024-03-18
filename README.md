@@ -5,5 +5,5 @@ Skilled in search and machine learning technologies, application architecture, d
 
 # links
 
-- [GitHub](https://github.com/mazurkin/)
-- [LinkedIn](https://www.linkedin.com/in/mazurkin/)
+- [GitHub](https://github.com/mazurkin)
+- [LinkedIn](https://www.linkedin.com/in/mazurkin)
