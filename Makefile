@@ -13,12 +13,12 @@ build-html:
 		--from markdown+smart \
 		--to html5 \
 		--standalone \
-		--self-contained \
 		--toc \
 		--metadata pagetitle="Nikolai Mazurkin - personal page" \
 		--metadata title="Nikolai Mazurkin" \
 		--variable lang=en \
 		--variable highlighting-css= \
+		--include-in-header misc/gtag.html \
 		--css css/styling.css \
 		--mathjax \
 		--output index.html \
