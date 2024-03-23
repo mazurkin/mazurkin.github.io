@@ -16,8 +16,8 @@ build-html:
 		--to html5 \
 		--standalone \
 		--toc \
-		--metadata pagetitle="Nikolai Mazurkin - personal page" \
-		--metadata title="Nikolai Mazurkin" \
+		--metadata pagetitle="Nick Mazurkin - personal page" \
+		--metadata title="Nick Mazurkin" \
 		--variable lang=en \
 		--variable highlighting-css= \
 		--include-in-header misc/gtag.html \
