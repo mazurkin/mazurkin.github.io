@@ -16,14 +16,18 @@ build-html:
 		--to html5 \
 		--standalone \
 		--toc \
+		--toc-depth=1 \
+		--strip-comments \
+		--email-obfuscation=references \
+		--mathml \
+		--highlight-style tango \
 		--metadata pagetitle="Nick Mazurkin - personal page" \
 		--metadata title="Nick Mazurkin" \
 		--variable lang=en \
-		--variable highlighting-css= \
-		--include-in-header misc/gtag.html \
-		--include-in-header misc/favicon.html \
+		--include-in-header html/gtag.html \
+		--include-in-header html/favicon.html \
 		--css css/styling.css \
-		--mathjax \
+		--css css/custom.css \
 		--output index.html \
 		README.md
 
