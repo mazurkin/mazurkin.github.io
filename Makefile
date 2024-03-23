@@ -4,6 +4,8 @@ SHELL := /bin/bash
 # https://benjam.info/panam/
 # https://jez.io/tufte-pandoc-css/
 
+.DEFAULT_GOAL := build
+
 .PHONY: build build-html spell-check spell-edit
 
 build: spell-check build-html
