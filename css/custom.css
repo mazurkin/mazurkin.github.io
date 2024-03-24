@@ -1,5 +1,18 @@
+#TOC ul {
+  display: inline;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#TOC ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
 #avatar {
     max-width: 100%;
+    text-align: center;
 }
 
 #avatar img {

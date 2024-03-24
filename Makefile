@@ -19,6 +19,7 @@ build-html:
 		--toc-depth=1 \
 		--strip-comments \
 		--email-obfuscation=references \
+		--section-divs \
 		--mathml \
 		--highlight-style tango \
 		--metadata pagetitle="Nick Mazurkin - personal page" \
