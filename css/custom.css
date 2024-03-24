@@ -1,13 +1,12 @@
 #TOC ul {
-  display: inline;
-  list-style-type: none;
+  display: block;
   margin-left: 0px;
   padding-left: 0px;
 }
 
 #TOC ul li {
-  display: inline;
-  margin-right: 15px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 #avatar {
@@ -24,5 +23,6 @@
 }
 
 #avatar img:hover {
-    transform: scale(1.1);
+  border: 5px solid darkgrey;
+  transform: scale(1.1);
 }

@@ -1,15 +1,11 @@
 SHELL := /bin/bash
 
-# STYLES
-# https://benjam.info/panam/
-# https://jez.io/tufte-pandoc-css/
-
 .DEFAULT_GOAL := build
 
-.PHONY: build build-html spell-check spell-edit
-
+.PHONY: build
 build: spell-check build-html
 
+.PHONY: build-html
 build-html:
 	@pandoc \
 		--from markdown+smart \
@@ -18,7 +14,7 @@ build-html:
 		--toc \
 		--toc-depth=1 \
 		--strip-comments \
-		--email-obfuscation=references \
+		--email-obfuscation=javascript \
 		--section-divs \
 		--mathml \
 		--highlight-style tango \
@@ -32,8 +28,10 @@ build-html:
 		--output index.html \
 		README.md
 
+.PHONY: spell-check
 spell-check:
 	@aspell list --mode=markdown --lang=en --personal=$$(pwd)/misc/aspell.list < README.md
 
+.PHONY: spell-edit
 spell-edit:
 	@aspell check --mode=markdown --lang=en --personal=$$(pwd)/misc/aspell.list --dont-backup README.md
