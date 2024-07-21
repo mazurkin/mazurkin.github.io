@@ -70,7 +70,8 @@ server-stop:
 
 .PHONY: server-run
 server-run:
-	@$(WEBSERVER)
+	@echo "running http://$(WEBSERVER_BIND):$(WEBSERVER_PORT)/"
+	@daemon --name $(WEBSERVER_TAG) --chdir=$(ROOT) --foreground -- $(WEBSERVER)
 
 # -----------------------------------------------------------------------------
 #
