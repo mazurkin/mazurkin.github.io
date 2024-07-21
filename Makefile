@@ -2,10 +2,16 @@
 
 SHELL      = /bin/bash
 TIMESTAMP  = $(shell date --utc '+%Y-%m-%d')
+ROOT       = $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 ASPELL     = aspell --mode=markdown --lang=en --encoding=utf-8 --dont-backup --personal="$$(pwd)/misc/aspell.list"
 CHROME     = chromium
 QRENCODE   = qrencode --level=H --size=3 --dpi=72 --margin=4
+
+WEBSERVER_BIND = 127.0.0.1
+WEBSERVER_PORT = 9001
+WEBSERVER_TAG  = personalweb
+WEBSERVER      = python3 -m http.server --bind $(WEBSERVER_BIND) $(WEBSERVER_PORT)
 
 SITE_DOMAIN   = mazurk.in
 SITE_TITLE    = Nick Mazurkin
@@ -21,11 +27,7 @@ GPG_USER      = n@mazurk.in
 
 .PHONY: setup
 setup:
-	@sudo apt-get install pandoc aspell wkhtmltopdf qrencode
-
-.PHONY: server
-server:
-	@python3 -m http.server 9000
+	@sudo apt-get install pandoc aspell wkhtmltopdf qrencode daemon
 
 .PHONY: gpg
 gpg:
@@ -38,21 +40,8 @@ qr:
 	@$(QRENCODE) --type=PNG --output=i/qr/resume.png 'https://mazurk.in/#resume'
 	@$(QRENCODE) --type=SVG --output=i/qr/resume.svg 'https://mazurk.in/#resume'
 
-.PHONY: preview
-preview:
-	@$(CHROME) \
-		--headless=old \
-	 	--disable-gpu --hide-scrollbars --mute-audio \
-		--window-size=1024,1024 \
-		--force-device-scale-factor=0.5 \
-		--timeout=60000 \
-		--enable-logging=stderr \
-		--v=0 \
-		--screenshot=i/preview.png \
-		'https://$(SITE_DOMAIN)/'
-
-.PHONY: fetch
-fetch:
+.PHONY: audit
+audit:
 	@$(CHROME) \
 		--headless=old \
 	 	--disable-gpu --hide-scrollbars --mute-audio \
@@ -62,6 +51,26 @@ fetch:
 		--enable-logging=stderr \
 		--v=1 \
 		'https://$(SITE_DOMAIN)/'
+
+# -----------------------------------------------------------------------------
+#
+# server
+#
+# -----------------------------------------------------------------------------
+
+.PHONY: server-start
+server-start:
+	@echo "starting http://$(WEBSERVER_BIND):$(WEBSERVER_PORT)/"
+	@daemon --name $(WEBSERVER_TAG) --chdir=$(ROOT) -- $(WEBSERVER)
+
+.PHONY: server-stop
+server-stop:
+	@echo "stopping http://$(WEBSERVER_BIND):$(WEBSERVER_PORT)/"
+	@daemon --name $(WEBSERVER_TAG) --stop
+
+.PHONY: server-run
+server-run:
+	@$(WEBSERVER)
 
 # -----------------------------------------------------------------------------
 #
@@ -85,6 +94,29 @@ $(all_spell_check_files): %.spellcheck: %.md
 
 $(all_spell_edit_files): %.spelled: %.md
 	@$(ASPELL) check $<
+
+# -----------------------------------------------------------------------------
+#
+# preview
+#
+# -----------------------------------------------------------------------------
+
+.PHONY: build-preview
+build-preview: README.png
+
+README.png: $(wildcard css/**/* i/**/* README.html README.css)
+	@daemon --name $(WEBSERVER_TAG) --chdir=$(ROOT) -- $(WEBSERVER)
+	@$(CHROME) \
+		--headless=old \
+	 	--disable-gpu --hide-scrollbars --mute-audio \
+		--window-size=1024,1024 \
+		--force-device-scale-factor=0.5 \
+		--timeout=60000 \
+		--enable-logging=stderr \
+		--v=0 \
+		--screenshot=README.png \
+		'http://$(WEBSERVER_BIND):$(WEBSERVER_PORT)/'
+	@daemon --name $(WEBSERVER_TAG) --stop
 
 # -----------------------------------------------------------------------------
 #
@@ -254,4 +286,4 @@ $(docs_odt_files): %.odt: %.md
 .DEFAULT_GOAL := build
 
 .PHONY: build
-build: spell-check build-pages build-docs build-favicon
+build: spell-check build-pages build-docs build-favicon build-preview
