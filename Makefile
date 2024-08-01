@@ -105,7 +105,7 @@ $(all_spell_edit_files): %.spelled: %.md
 .PHONY: build-preview
 build-preview: README.png
 
-README.png: $(wildcard css/**/* i/**/* README.html README.css)
+README.png: $(wildcard css/**/* css/* i/**/* i/* README.html README.css)
 	@daemon --name $(WEBSERVER_TAG) --chdir=$(ROOT) -- $(WEBSERVER)
 	@$(CHROME) \
 		--headless=old \
