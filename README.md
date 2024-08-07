@@ -15,8 +15,8 @@ team management and Linux system administration.
 
 | format |                                 |                               |                                 |                               |                                                                            |
 |--------|---------------------------------|-------------------------------|---------------------------------|-------------------------------|----------------------------------------------------------------------------|
-| 2-page | [HTML](/doc/resume/resume.html) | [PDF](/doc/resume/resume.pdf) | [DOCX](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
 | full   | [HTML](/doc/cv/cv.html)         | [PDF](/doc/cv/cv.pdf)         | [DOCX](/doc/cv/cv.docx)         | [ODT](/doc/cv/cv.odt)         | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/cv)     |
+| 2-page | [HTML](/doc/resume/resume.html) | [PDF](/doc/resume/resume.pdf) | [DOCX](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
 
 # contacts
 
