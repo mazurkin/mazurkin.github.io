@@ -2,22 +2,22 @@
 pagetitle: Nick Mazurkin – cv
 ---
 
-# Nick Mazurkin (CV)
+# Nick Mazurkin
 
 ## Software Engineer, Team Lead, Staff Engineer
 
 **New York City, USA**
 
-**Java** · **Python** · **Web** · **DB** · **No-SQL** · **Linux** · **ML** · **Cloud**
+**Java** · **Python** · **Web** · **DB** · **No-SQL** · **Linux** · **ML** · **AI** · **Cloud**
+
+[career@mazurk.in](mailto:career@mazurk.in) · [https://mazurk.in](https://mazurk.in) · [LinkedIn](https://www.linkedin.com/in/mazurkin/) · [GitHub](https://github.com/mazurkin/)
 
 Software development professional with years of experience crafting
 web applications and backend services using Java and Python. I am skilled in search and machine
 learning technologies, web technologies, application architecture, database design,
 and Linux system administration.
 
-- email: [career@mazurk.in](mailto:career@mazurk.in)
-- page: [https://mazurk.in](https://mazurk.in)
-- web: [LinkedIn](https://www.linkedin.com/in/mazurkin/), [GitHub](https://github.com/mazurkin/)
+# Experience
 
 ## PulsePoint, New York, USA
 
@@ -29,8 +29,8 @@ Python · Jupyter · Jupyter · NumPy · Scikit-Learn · Luigi · ETL
 Redis · Cassandra · Hive · No-SQL · Presto · Vertica ·
 AWS S3 · AWS EC · AWS SageMaker · Google Cloud BigQuery · Google Cloud Storage ·
 Algorithms · Algorithm Design · Data Structures ·
-Machine Learning Algorithms  · Real-Time Bidding (RTB) ·
-Multi-threading
+Machine Learning Algorithms · Real-Time Bidding (RTB) ·
+Multi-Threading · Concurrency
 
 ###  Director of Data Science and Engineering (2020 - now)
 
@@ -99,7 +99,7 @@ Rollup, jQuery, Bootstrap) has been set up for control web dashboard project. Ne
 
 ### Senior Software Java Developer (Oct 2012 - May 2016)
 
-Java · Linux · Lucene · Cassandra · Kafka · Spring Framework · jQuery · LVS
+Java · Linux · Lucene · Cassandra · Kafka · Spring Framework · jQuery · ML · LVS
 
 - Implemented a lot of features to searching infrastructure in OK.ru: backend services, data storages,
 relevancy customization, indexation, replication (Apache Lucene, Spring Framework, Web Services, SQL/noSQL, Linux)
@@ -107,8 +107,8 @@ relevancy customization, indexation, replication (Apache Lucene, Spring Framewor
 resource propagation on ~2000 servers.
 - Moderation and antispam services, architecture and implementation: NSFW detector, spam detector
 (based on naive bayes detector), UGC filter cluster (near real-time voting-quorum service).
-- Dating startup (Tinder-alike): architecture and implementation: SOA, custom search service
-asynchronous binary client protocol, push service (GCM), photo upload-processing-distribution service,
+- Dating startup (Tinder-alike): architecture and implementation: SOA, custom search service,
+asynchronous binary client protocol, push service (GCM), photo uploading/processing/distribution service,
 statistics and analytics (apache netty, apache cassandra, kafka, queues, messaging, mobile apps, python,
 machine learning)
 
@@ -192,32 +192,28 @@ Win32 API · CVS · ASM · i8051
 - Digital electronic systems on i8051 architecture (schemes, printboards, software)
 - Real-time embedded i8051-software with C and Assembler.
 
-## Open-source
+# Open-source
 
-### net-crusher
+## net-crusher
 
 TCP/UDP proxy library for automated and manual connectivity testing (used by RabbitMQ, Aerospike, Terracotta), more:
 [project](https://netcrusherorg.github.io/netcrusher-java/),
 [sources](https://github.com/NetCrusherOrg/netcrusher-java),
 [usages](https://mvnrepository.com/artifact/com.github.netcrusherorg/netcrusher-core/usages)
 
-### protobuf
+## protobuf
 
 Performance fix for the protobuf java compiler: [pull request](https://github.com/protocolbuffers/protobuf/pull/2121)
 
 # Education
 
-## Mari State Technical University (1994 - 1999)
+## Mari State Technical University, Yoshkar-Ola, Russia (1994 - 1999)
 
-- Yoshkar-Ola, Russia
-- «Computers, Networks, Complexes, Information Technologies»
-- Engineer (diploma with honors, equivalent to a master's degree)
+"Computing machines, complexes, systems, and networks", Engineer (with honors, equivalent to a master's degree)
 
-## Mari State University (2002 - 2003)
+## Mari State University, Yoshkar-Ola, Russia (2002 - 2003)
 
-- Yoshkar-Ola, Russia
-- «Anti-Crisis Management»
-- Manager
+«Anti-Crisis Management», Anti-Crisis Manager
 
 ## Additional
 

@@ -18,32 +18,32 @@ body > * {
 }
 
 h1 {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
     text-align: center;
 }
 
 h2 {
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
 }
 
 h2:after {
     content: ' ';
-    margin-top: 0.3rem;
+    margin-top: 0.2rem;
     display: block;
     border: 1px dotted #999999;
 }
 
 h3 {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-    margin-top: 0.9em;
-    margin-bottom: 0.9em;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
 }
 
 h4 {
@@ -54,15 +54,15 @@ h4 {
 }
 
 h5 {
-    font-size: 1.15rem;
-}
-
-h6 {
     font-size: 1.1rem;
 }
 
+h6 {
+    font-size: 1.0rem;
+}
+
 p {
-    margin: 1.5rem 0;
+    margin: 1.0rem 0;
 }
 
 p, h1, h2, h3, h4, h5, h6 {

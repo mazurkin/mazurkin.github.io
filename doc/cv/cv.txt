@@ -1,21 +1,21 @@
 
 
-Nick Mazurkin (CV)
+Nick Mazurkin
 
 Software Engineer, Team Lead, Staff Engineer
 
 New York City, USA
 
-Java · Python · Web · DB · No-SQL · Linux · ML · Cloud
+Java · Python · Web · DB · No-SQL · Linux · ML · AI · Cloud
+
+career@mazurk.in · https://mazurk.in · LinkedIn · GitHub
 
 Software development professional with years of experience crafting web
 applications and backend services using Java and Python. I am skilled in
 search and machine learning technologies, web technologies, application
 architecture, database design, and Linux system administration.
 
--   email: career@mazurk.in
--   page: https://mazurk.in
--   web: LinkedIn, GitHub
+Experience
 
 PulsePoint, New York, USA
 
@@ -28,7 +28,7 @@ NumPy · Scikit-Learn · Luigi · ETL Redis · Cassandra · Hive · No-SQL ·
 Presto · Vertica · AWS S3 · AWS EC · AWS SageMaker · Google Cloud
 BigQuery · Google Cloud Storage · Algorithms · Algorithm Design · Data
 Structures · Machine Learning Algorithms · Real-Time Bidding (RTB) ·
-Multi-threading
+Multi-Threading · Concurrency
 
 Director of Data Science and Engineering (2020 - now)
 
@@ -120,7 +120,7 @@ OK.ru, Moscow, RU, the one of the largest social networks (54 MAU)
 Senior Software Java Developer (Oct 2012 - May 2016)
 
 Java · Linux · Lucene · Cassandra · Kafka · Spring Framework · jQuery ·
-LVS
+ML · LVS
 
 -   Implemented a lot of features to searching infrastructure in OK.ru:
     backend services, data storages, relevancy customization,
@@ -132,8 +132,8 @@ LVS
     NSFW detector, spam detector (based on naive bayes detector), UGC
     filter cluster (near real-time voting-quorum service).
 -   Dating startup (Tinder-alike): architecture and implementation: SOA,
-    custom search service asynchronous binary client protocol, push
-    service (GCM), photo upload-processing-distribution service,
+    custom search service, asynchronous binary client protocol, push
+    service (GCM), photo uploading/processing/distribution service,
     statistics and analytics (apache netty, apache cassandra, kafka,
     queues, messaging, mobile apps, python, machine learning)
 
@@ -238,17 +238,14 @@ Performance fix for the protobuf java compiler: pull request
 
 Education
 
-Mari State Technical University (1994 - 1999)
+Mari State Technical University, Yoshkar-Ola, Russia (1994 - 1999)
 
--   Yoshkar-Ola, Russia
--   «Computers, Networks, Complexes, Information Technologies»
--   Engineer (diploma with honors, equivalent to a master’s degree)
+“Computing machines, complexes, systems, and networks”, Engineer (with
+honors, equivalent to a master’s degree)
 
-Mari State University (2002 - 2003)
+Mari State University, Yoshkar-Ola, Russia (2002 - 2003)
 
--   Yoshkar-Ola, Russia
--   «Anti-Crisis Management»
--   Manager
+«Anti-Crisis Management», Anti-Crisis Manager
 
 Additional
 

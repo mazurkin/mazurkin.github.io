@@ -105,7 +105,7 @@ $(all_spell_edit_files): %.spelled: %.md
 .PHONY: build-preview
 build-preview: README.png
 
-README.png: $(wildcard css/**/* css/* i/**/* i/* README.html README.css)
+README.png: $(wildcard README.html README.css README.header.html README.footer.html css/style.css i/**/* i/*)
 	@daemon --name $(WEBSERVER_TAG) --chdir=$(ROOT) -- $(WEBSERVER)
 	@$(CHROME) \
 		--headless=old \
@@ -220,7 +220,7 @@ $(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.ht
 		--output $@ \
 		$<
 
-$(docs_pdf_files): %.pdf: %.html
+$(docs_pdf_files): %.pdf: %.html css/document.css
 	@wkhtmltopdf \
 		--page-size Letter \
 		--orientation Portrait \

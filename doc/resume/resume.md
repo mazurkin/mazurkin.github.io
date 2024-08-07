@@ -2,22 +2,20 @@
 pagetitle: Nick Mazurkin – resume
 ---
 
-# Nick Mazurkin (resume)
+# Nick Mazurkin
 
 ## Software Engineer, Team Lead, Staff Engineer
 
 **New York City, USA**
 
-**Java** · **Python** · **Web** · **DB** · **No-SQL** · **Linux** · **ML** · **Cloud**
+**Java** · **Python** · **Web** · **DB** · **No-SQL** · **Linux** · **ML** · **AI** · **Cloud**
+
+[career@mazurk.in](mailto:career@mazurk.in) · [https://mazurk.in](https://mazurk.in) · [LinkedIn](https://www.linkedin.com/in/mazurkin/) · [GitHub](https://github.com/mazurkin/)
 
 Software development professional with years of experience crafting
 web applications and backend services using Java and Python. I am skilled in search and machine
 learning technologies, web technologies, application architecture, database design,
 and Linux system administration.
-
-- email: [career@mazurk.in](mailto:career@mazurk.in)
-- page: [https://mazurk.in](https://mazurk.in)
-- web: [LinkedIn](https://www.linkedin.com/in/mazurkin/), [GitHub](https://github.com/mazurkin/)
 
 ## PulsePoint, New York, USA
 
@@ -29,8 +27,8 @@ Python · Jupyter · Jupyter · NumPy · Scikit-Learn · Luigi · ETL
 Redis · Cassandra · Hive · No-SQL · Presto · Vertica ·
 AWS S3 · AWS EC · AWS SageMaker · Google Cloud BigQuery · Google Cloud Storage ·
 Algorithms · Algorithm Design · Data Structures ·
-Machine Learning Algorithms  · Real-Time Bidding (RTB) ·
-Multi-threading
+Machine Learning Algorithms · Real-Time Bidding (RTB) ·
+Multi-Threading · Concurrency
 
 ###  Director of Data Science and Engineering (2020 - now)
 
