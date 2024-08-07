@@ -10,7 +10,7 @@ pagetitle: Nick Mazurkin – cv
 
 **Java** · **Python** · **Web** · **DB** · **No-SQL** · **Linux** · **ML** · **AI** · **Cloud**
 
-[career@mazurk.in](mailto:career@mazurk.in) · [https://mazurk.in](https://mazurk.in) · [LinkedIn](https://www.linkedin.com/in/mazurkin/) · [GitHub](https://github.com/mazurkin/)
+[career@mazurk.in](mailto:career@mazurk.in) · [https://mazurk.in](https://mazurk.in/#resume) · [LinkedIn](https://www.linkedin.com/in/mazurkin/) · [GitHub](https://github.com/mazurkin/)
 
 Software development professional with years of experience crafting
 web applications and backend services using Java and Python. I am skilled in search and machine
@@ -192,7 +192,7 @@ Win32 API · CVS · ASM · i8051
 - Digital electronic systems on i8051 architecture (schemes, printboards, software)
 - Real-time embedded i8051-software with C and Assembler.
 
-# Open-source
+# Open Source
 
 ## net-crusher
 

@@ -224,7 +224,7 @@ Access · MS Visual Basic · Win32 API · CVS · ASM · i8051
     printboards, software)
 -   Real-time embedded i8051-software with C and Assembler.
 
-Open-source
+Open Source
 
 net-crusher
 
