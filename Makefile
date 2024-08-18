@@ -6,7 +6,7 @@ ROOT       = $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 ASPELL     = aspell --mode=markdown --lang=en --encoding=utf-8 --dont-backup --personal="$$(pwd)/misc/aspell.list"
 CHROME     = chromium
-QRENCODE   = qrencode --level=H --size=3 --dpi=72 --margin=4
+QRENCODE   = qrencode --level=H --size=3 --dpi=72 --margin=0
 
 WEBSERVER_BIND = 127.0.0.1
 WEBSERVER_PORT = 9001
