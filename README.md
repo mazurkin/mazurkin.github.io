@@ -13,10 +13,10 @@ team management and Linux system administration.
 
 # resume
 
-| format |                                 |                               |                                 |                               |                                                                            |
-|--------|---------------------------------|-------------------------------|---------------------------------|-------------------------------|----------------------------------------------------------------------------|
-| 2-page | [HTML](/doc/resume/resume.html) | [PDF](/doc/resume/resume.pdf) | [DOCX](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
-| full   | [HTML](/doc/cv/cv.html)         | [PDF](/doc/cv/cv.pdf)         | [DOCX](/doc/cv/cv.docx)         | [ODT](/doc/cv/cv.odt)         | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/cv)     |
+| format |                               |                                 |                                 |                               |                                                                            |
+|--------|-------------------------------|---------------------------------|---------------------------------|-------------------------------|----------------------------------------------------------------------------|
+| 2-page | [PDF](/doc/resume/resume.pdf) | [HTML](/doc/resume/resume.html) | [DOCX](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
+| full   | [PDF](/doc/cv/cv.pdf)         | [HTML](/doc/cv/cv.html)         | [DOCX](/doc/cv/cv.docx)         | [ODT](/doc/cv/cv.odt)         | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/cv)     |
 
 # contacts
 
