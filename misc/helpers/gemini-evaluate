@@ -7,10 +7,15 @@ set -o monitor
 set -o noglob
 
 # get a free Google Gemini API Key and set the ${GOOGLE_AI_KEY} environment variable
-# https://aistudio.google.com/app/apikey
+# - https://aistudio.google.com/app/apikey
 
 # examples:
 # - https://github.com/google/generative-ai-docs/blob/main/site/en/gemini-api/docs/get-started/rest.ipynb
+
+# documentation
+# - https://ai.google.dev/gemini-api/docs/models/gemini
+# - https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models
+# - https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
 
 REQ_FILE_PATH="${1}"
 declare -r REQ_FILE_PATH
