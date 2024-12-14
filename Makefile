@@ -321,6 +321,18 @@ gemini-style:
 .PHONY: gemini
 gemini: gemini-avatar gemini-contacts gemini-location gemini-residency gemini-specialty gemini-evaluate gemini-style
 
+.PHONY: gemini-15-flash
+gemini-15-flash: export GOOGLE_AI_MODEL = gemini-1.5-flash
+gemini-15-flash: gemini
+
+.PHONY: gemini-15-pro
+gemini-15-pro: export GOOGLE_AI_MODEL = gemini-1.5-pro
+gemini-15-pro: gemini
+
+.PHONY: gemini-20
+gemini-20: export GOOGLE_AI_MODEL = gemini-2.0-flash-exp
+gemini-20: gemini
+
 # -----------------------------------------------------------------------------
 #
 # default

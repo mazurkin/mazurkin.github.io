@@ -26,7 +26,7 @@ declare -r REQ_FILE_MIME
 REQ_QUESTION="${3}"
 declare -r REQ_QUESTION
 
-GOOGLE_AI_MODEL="gemini-1.5-flash"
+GOOGLE_AI_MODEL="${GOOGLE_AI_MODEL:-gemini-1.5-flash}"
 declare -r GOOGLE_AI_MODEL
 
 GOOGLE_AI_REQUEST=$(mktemp)
