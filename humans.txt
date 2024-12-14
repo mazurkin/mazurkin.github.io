@@ -12,7 +12,7 @@
 
 /* SITE */
 
-	Language: English
-	Doctype: HTML5
-	IDE: GNU, Linux, Pandoc, Markdown, Make
+    Language: English
+    Doctype: HTML5
+    IDE: GNU, Linux, Pandoc, Markdown, Make
 
