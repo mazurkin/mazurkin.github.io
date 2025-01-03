@@ -73,7 +73,7 @@ prescription data, enabling clients to select DTC audiences based on condition p
 - Developed a secure facade to access and process obfuscated clean-room data, providing
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
 
-###  Director of Data Science and Engineering (Apr 2020 — present)
+###  Team Lead, Data Science and Engineering team (Apr 2020 — present)
 
 Led a team of 6 data scientists and 3 Java/Python engineers (DSE) working across 5 time zones, responsible
 for planning, performance tracking, coordination, and agile management. Proven ability to lead and mentor teams,
