@@ -42,7 +42,7 @@ which facilitated the execution of integration tests.
 the time required to create new projects.
 - Developed an audience builder for 15 audiences, enabling our client to target very specific audiences with focus
 either on volume or accuracy (using Luigi, Hive, and ETL).
-- Successfully resolved 2-3 support issues daily as part of a 3rd line technical on-call support rotation.
+- Successfully resolved 2-3 support issues daily as part of a periodical 3rd-line technical on-call support rotation.
 - Implemented several dozen RTB changes in the application stack, including improvements, new features, deployments,
 fixes, and monitoring (using Java, Netty, and Linux).
 - Developed an engine for internal reports with embedded alerting, enabling transparent and quick monitoring of
@@ -56,6 +56,7 @@ for HCP targeting.
 prescription data, enabling clients to select DTC audiences based on condition probability.
 - Developed a secure facade to access and process obfuscated clean-room data, providing
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
+- Implemented and delivered the gender prediction model (Python, Sklearn)
 
 ###  Team Lead, Data Science and Engineering team (Apr 2020 — present)
 
