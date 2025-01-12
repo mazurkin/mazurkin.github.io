@@ -26,9 +26,9 @@ team management and Linux system administration.
 
 # links
 
-- <img src="/i/icon/newspaper.svg" alt="Blog">&nbsp;[Blog](https://github.com/mazurkin/mazurkin.github.io/wiki)
 - <img src="/i/ext/linkedin.svg" alt="LinkedIn page">&nbsp;[LinkedIn](https://www.linkedin.com/in/mazurkin)
 - <img src="/i/ext/github.svg" alt="GitHub page">&nbsp;[GitHub](https://github.com/mazurkin)
 - <img src="/i/ext/paypal.svg" alt="PayPal account">&nbsp;[PayPal](https://paypal.me/mazurkin?country.x=US&locale.x=en_USn)
 - <img src="/i/icon/bank.svg" alt="Venmo account">&nbsp;[Venmo](https://account.venmo.com/u/mazurkin)
+- <img src="/i/icon/newspaper.svg" alt="Blog">&nbsp;[Blog](https://github.com/mazurkin/mazurkin.github.io/wiki)
 
