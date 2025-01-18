@@ -48,8 +48,8 @@ fixes, and monitoring (using Java, Netty, and Linux).
 - Developed an engine for internal reports with embedded alerting, enabling transparent and quick monitoring of
 important pipelines and services (using Python, Hive, Impala, and Jupyter). Created 6 internal engineering reports.
 - Implemented 7 ETL pipelines in Python using Luigi, Docker, Hive, and Presto.
-- Implemented 3 production classifiers (using machine learning, Java, JPMML, Python, Scikit-learn, and Jupyter)
-to provide solutions for video-completion rate targeting and look-alike audience targeting.
+- Improved video-completion rate model by making it more accurate and stable (Python, Scikit-learn)
+- Implemented and delivered to production the look-alike audience model (Python, Catboost, Luigi, K8S)
 - Developed a model to predict the quality of NPI attribution, enabling clients to select the confidence level
 for HCP targeting.
 - Developed a model to predict the quality of ICD10 attribution based on obfuscated and aggregated clean-room
