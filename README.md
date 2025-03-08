@@ -18,7 +18,7 @@ team management and Linux system administration.
 | 2-page | [PDF](/doc/resume/resume.pdf) | [HTML](/doc/resume/resume.html) | [DOCX](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
 | full   | [PDF](/doc/cv/cv.pdf)         | [HTML](/doc/cv/cv.html)         | [DOCX](/doc/cv/cv.docx)         | [ODT](/doc/cv/cv.odt)         | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/cv)     |
 
-# contact
+# contacts
 
 - <img src="/i/icon/mailbox.svg" alt="Send email message">&nbsp;[n@mazurk.in](mailto:n@mazurk.in)
 - <img src="/i/file/file-lock-fill.svg" alt="PGP public key">&nbsp;[PGP public key](/file/pgp/public.txt)
@@ -30,3 +30,4 @@ team management and Linux system administration.
 - <img src="/i/ext/github.svg" alt="GitHub page">&nbsp;[GitHub](https://github.com/mazurkin)
 - <img src="/i/ext/paypal.svg" alt="PayPal account">&nbsp;[PayPal](https://paypal.me/mazurkin?country.x=US&locale.x=en_USn)
 - <img src="/i/icon/bank.svg" alt="Venmo account">&nbsp;[Venmo](https://account.venmo.com/u/mazurkin)
+- <img src="/i/icon/newspaper.svg" alt="Blog">&nbsp;[Blog](https://github.com/mazurkin/mazurkin.github.io/wiki)
