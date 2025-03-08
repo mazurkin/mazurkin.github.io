@@ -1,12 +1,13 @@
 # Nick Mazurkin - personal page
 
-SHELL      = /bin/bash
-TIMESTAMP  = $(shell date --utc '+%Y-%m-%d')
-ROOT       = $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
+SHELL       = /bin/bash
+TIMESTAMP   = $(shell date --utc '+%Y-%m-%d')
+ROOT        = $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-ASPELL     = aspell --mode=markdown --lang=en --encoding=utf-8 --dont-backup --personal="$$(pwd)/misc/aspell.list"
-CHROME     = chromium
-QRENCODE   = qrencode --level=H --size=3 --dpi=72 --margin=0
+ASPELL      = aspell --mode=markdown --lang=en --encoding=utf-8 --dont-backup --personal="$$(pwd)/misc/aspell.list"
+CHROME      = chromium
+QRENCODE    = qrencode --level=H --size=3 --dpi=72 --margin=0
+PANDOC_DATA = "$(ROOT)/misc/pandoc/data"
 
 WEBSERVER_BIND = 127.0.0.1
 WEBSERVER_PORT = 9001
@@ -156,6 +157,7 @@ build-pages: $(pages_html_files)
 
 $(pages_html_files): %.html: %.md %.header.html %.footer.html html/humans.html html/meta.html html/favicon.html html/gtag.html html/jquery.html
 	@pandoc \
+		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to html5 \
 		--standalone \
@@ -200,7 +202,8 @@ docs_txt_files  = $(docs_md_files:%.md=%.txt)
 build-docs: $(docs_html_files) $(docs_pdf_files) $(docs_docx_files) $(docs_odt_files) $(docs_rtf_files) $(docs_txt_files)
 
 $(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.html html/gtag.html
-	@pandoc \
+	pandoc \
+		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to html5 \
 		--standalone \
@@ -222,6 +225,7 @@ $(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.ht
 
 $(docs_rtf_files): %.rtf: %.md
 	@pandoc \
+		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to rtf \
 		--standalone \
@@ -232,6 +236,7 @@ $(docs_rtf_files): %.rtf: %.md
 
 $(docs_txt_files): %.txt: %.md
 	@pandoc \
+		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to plain \
 		--standalone \
@@ -242,6 +247,7 @@ $(docs_txt_files): %.txt: %.md
 
 $(docs_docx_files): %.docx: %.md
 	@pandoc \
+		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to docx \
 		--standalone \
@@ -252,6 +258,7 @@ $(docs_docx_files): %.docx: %.md
 
 $(docs_odt_files): %.odt: %.md
 	@pandoc \
+		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to odt \
 		--standalone \

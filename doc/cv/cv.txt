@@ -27,7 +27,7 @@ BigQuery · Google Cloud Storage · Algorithms · Algorithm Design · Data
 Structures · Machine Learning Algorithms · Real-Time Bidding (RTB) ·
 Multi-Threading · Concurrency
 
-Director, Data Science and Engineering team (Apr 2020 — Mar 2025)
+Director, Data Science and Engineering team (Apr 2020 — present)
 
 Led a team of 6 data scientists and 3 Java/Python engineers (DSE)
 working across 5 time zones, responsible for planning, performance
