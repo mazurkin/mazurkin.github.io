@@ -12,7 +12,21 @@ pagetitle: Nick Mazurkin – resume
 
 [PulsePoint.com](https://www.pulsepoint.com/), AdTech, OpenRTB Exchange, DSP, DMP
 
-### Software Engineer with Expertise in Java, Python, and ML (Feb 2017 — present)
+### Director, Data Science and Engineering team (Apr 2020 — present)
+
+Led a team of 6 data scientists and 3 Java/Python engineers (DSE) working across 5 time zones, responsible
+for planning, performance tracking, coordination, and agile management. Proven ability to lead and mentor teams,
+manage projects, and deliver results on time and within budget.
+
+- Successfully delivered 3 new internal services and 5 new ML models as a team leader.
+- Successfully completed 20 quarterly plans with the team in research, development, and deployment.
+- Successfully migrated DSE projects to the new data center.
+- Provided interviewing, on-boarding, and mentoring for new team members.
+- Successfully coordinated and communicated with other teams and team leaders on numerous projects.
+- Successfully maintained an iterative Agile framework, including scrum, retrospectives, and prioritization of tasks.
+
+### Senior Software Engineer with Expertise in Java, Python, and ML (Feb 2019 — present, full-time employee)
+### Senior Software Engineer with Expertise in Java, Python, and ML (Feb 2017 — 2019, full-time contractor)
 
 Experienced software engineer with a proven track record of developing and deploying high-performance applications
 using Java, Python, ML, Linux, and web technologies. Expertise in building and scaling distributed systems,
@@ -57,19 +71,6 @@ prescription data, enabling clients to select DTC audiences based on condition p
 - Developed a secure facade to access and process obfuscated clean-room data, providing
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
 - Implemented and delivered the gender prediction model (Python, Sklearn)
-
-###  Team Lead, Data Science and Engineering team (Apr 2020 — present)
-
-Led a team of 6 data scientists and 3 Java/Python engineers (DSE) working across 5 time zones, responsible
-for planning, performance tracking, coordination, and agile management. Proven ability to lead and mentor teams,
-manage projects, and deliver results on time and within budget.
-
-- Successfully delivered 3 new internal services and 5 new ML models as a team leader.
-- Successfully completed 20 quarterly plans with the team in research, development, and deployment.
-- Successfully migrated DSE projects to the new data center.
-- Provided interviewing, on-boarding, and mentoring for new team members.
-- Successfully coordinated and communicated with other teams and team leaders on numerous projects.
-- Successfully maintained an iterative Agile framework, including scrum, retrospectives, and prioritization of tasks.
 
 ## Deutsche Bank
 
