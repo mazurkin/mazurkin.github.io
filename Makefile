@@ -43,14 +43,15 @@ qr:
 .PHONY: audit
 audit:
 	@$(CHROME) \
-		--headless=old \
+		--headless \
 	 	--disable-gpu --hide-scrollbars --mute-audio \
 		--window-size=1024,1024 \
 		--force-device-scale-factor=0.5 \
 		--timeout=60000 \
 		--enable-logging=stderr \
 		--v=1 \
-		'https://$(SITE_DOMAIN)/'
+		'https://$(SITE_DOMAIN)/' \
+	2>"$(ROOT)/target/audit.log"
 
 # -----------------------------------------------------------------------------
 #
@@ -108,7 +109,7 @@ build-preview: README.png
 README.png: $(wildcard README.html README.css README.header.html README.footer.html css/style.css i/**/* i/*)
 	@daemon --name $(WEBSERVER_TAG) --chdir=$(ROOT) -- $(WEBSERVER)
 	@$(CHROME) \
-		--headless=old \
+		--headless \
 	 	--disable-gpu --hide-scrollbars --mute-audio \
 		--window-size=1024,1024 \
 		--force-device-scale-factor=0.5 \
@@ -219,24 +220,6 @@ $(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.ht
 		--output $@ \
 		$<
 
-$(docs_pdf_files): %.pdf: %.html css/document.css
-	@wkhtmltopdf \
-		--page-size Letter \
-		--orientation Portrait \
-		--title "$(SITE_TITLE)" \
-		--enable-local-file-access \
-		--grayscale \
-		--images \
-		--enable-javascript \
-		--disable-plugins \
-		--no-background \
-		--margin-top    12 \
-		--margin-bottom 12 \
-		--margin-left   16 \
-		--margin-right  16 \
-		$< \
-		$@
-
 $(docs_rtf_files): %.rtf: %.md
 	@pandoc \
 		--from markdown+smart \
@@ -276,6 +259,24 @@ $(docs_odt_files): %.odt: %.md
 		--variable lang="en" \
 		--output $@ \
 		$<
+
+$(docs_pdf_files): %.pdf: %.html css/document.css
+	@wkhtmltopdf \
+		--page-size Letter \
+		--orientation Portrait \
+		--title "$(SITE_TITLE)" \
+		--enable-local-file-access \
+		--grayscale \
+		--images \
+		--enable-javascript \
+		--disable-plugins \
+		--no-background \
+		--margin-top    12 \
+		--margin-bottom 12 \
+		--margin-left   16 \
+		--margin-right  16 \
+		$< \
+		$@
 
 # -----------------------------------------------------------------------------
 #
