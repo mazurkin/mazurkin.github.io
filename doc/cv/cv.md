@@ -41,8 +41,8 @@ manage projects, and deliver results on time and within budget.
 - Successfully coordinated and communicated with other teams and team leaders on numerous projects.
 - Successfully maintained an iterative Agile framework, including scrum, retrospectives, and prioritization of tasks.
 
-### Senior Software Engineer with Expertise in Java, Python, and ML (office employee, Feb 2019 — **present**)
-### Senior Software Engineer with Expertise in Java, Python, and ML (remote contractor, Feb 2017 — 2019)
+### Senior Software Engineer with Expertise in Java, Python, and ML (employee, Jan 2019 — **present**)
+### Senior Software Engineer with Expertise in Java, Python, and ML (remote contractor, Feb 2017 - Jan 2019)
 
 Experienced software engineer with a proven track record of developing and deploying high-performance applications
 using Java, Python, ML, Linux, and web technologies. Expertise in building and scaling distributed systems,
