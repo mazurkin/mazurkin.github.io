@@ -202,7 +202,7 @@ docs_txt_files  = $(docs_md_files:%.md=%.txt)
 build-docs: $(docs_html_files) $(docs_pdf_files) $(docs_docx_files) $(docs_odt_files) $(docs_rtf_files) $(docs_txt_files)
 
 $(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.html html/gtag.html
-	pandoc \
+	@pandoc \
 		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
 		--to html5 \
@@ -245,9 +245,10 @@ $(docs_txt_files): %.txt: %.md
 		--output $@ \
 		$<
 
-$(docs_docx_files): %.docx: %.md
+$(docs_docx_files): %.docx: %.md $(ROOT)/misc/pandoc/reference/custom-reference.docx
 	@pandoc \
 		--data-dir "$(PANDOC_DATA)" \
+		--reference-doc "$(ROOT)/misc/pandoc/reference/custom-reference.docx" \
 		--from markdown+smart \
 		--to docx \
 		--standalone \
@@ -256,9 +257,10 @@ $(docs_docx_files): %.docx: %.md
 		--output $@ \
 		$<
 
-$(docs_odt_files): %.odt: %.md
+$(docs_odt_files): %.odt: %.md $(ROOT)/misc/pandoc/reference/custom-reference.odt
 	@pandoc \
 		--data-dir "$(PANDOC_DATA)" \
+		--reference-doc "$(ROOT)/misc/pandoc/reference/custom-reference.odt" \
 		--from markdown+smart \
 		--to odt \
 		--standalone \
