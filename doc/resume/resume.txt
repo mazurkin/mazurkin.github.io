@@ -11,7 +11,9 @@ PulsePoint, New York, USA
 
 PulsePoint.com, AdTech, OpenRTB Exchange, DSP, DMP
 
-Director, Data Science and Engineering team (Apr 2020 — present)
+VP, Data Science, ML and Engineering team (Mar 2025 — PRESENT)
+
+Director, Data Science, ML and Engineering team (Apr 2020 — Mar 2025)
 
 Led a team of 6 data scientists and 3 Java/Python engineers (DSE)
 working across 5 time zones, responsible for planning, performance
@@ -32,7 +34,7 @@ budget.
 -   Successfully maintained an iterative Agile framework, including
     scrum, retrospectives, and prioritization of tasks.
 
-Senior Software Engineer with Expertise in Java, Python, and ML (employee, Jan 2019 — present)
+Senior Software Engineer with Expertise in Java, Python, and ML (employee, Jan 2019 — PRESENT)
 
 Senior Software Engineer with Expertise in Java, Python, and ML (remote contractor, Feb 2017 - Jan 2019)
 

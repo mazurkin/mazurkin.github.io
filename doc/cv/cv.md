@@ -28,7 +28,8 @@ Algorithms · Algorithm Design · Data Structures ·
 Machine Learning Algorithms · Real-Time Bidding (RTB) ·
 Multi-Threading · Concurrency
 
-###  Director, Data Science and Engineering team (Apr 2020 — **present**)
+###  VP, Data Science, ML and Engineering team (Mar 2025 — PRESENT)
+###  Director, Data Science, ML and Engineering team (Apr 2020 — Mar 2025)
 
 Led a team of 6 data scientists and 3 Java/Python engineers (DSE) working across 5 time zones, responsible
 for planning, performance tracking, coordination, and agile management. Proven ability to lead and mentor teams,
@@ -41,7 +42,7 @@ manage projects, and deliver results on time and within budget.
 - Successfully coordinated and communicated with other teams and team leaders on numerous projects.
 - Successfully maintained an iterative Agile framework, including scrum, retrospectives, and prioritization of tasks.
 
-### Senior Software Engineer with Expertise in Java, Python, and ML (employee, Jan 2019 — **present**)
+### Senior Software Engineer with Expertise in Java, Python, and ML (Jan 2019 — PRESENT)
 ### Senior Software Engineer with Expertise in Java, Python, and ML (remote contractor, Feb 2017 - Jan 2019)
 
 Experienced software engineer with a proven track record of developing and deploying high-performance applications
