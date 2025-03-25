@@ -202,7 +202,7 @@ docs_txt_files  = $(docs_md_files:%.md=%.txt)
 .PHONY: build-docs
 build-docs: $(docs_html_files) $(docs_pdf_files) $(docs_docx_files) $(docs_odt_files) $(docs_rtf_files) $(docs_txt_files)
 
-$(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.html html/gtag.html
+$(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.html html/gtag.html html/clarity.html
 	@pandoc \
 		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
@@ -221,6 +221,7 @@ $(docs_html_files): %.html: %.md html/humans.html html/meta.html html/favicon.ht
 		--include-in-header "html/meta.html" \
 		--include-in-header "html/favicon.html" \
 		--include-in-header "html/gtag.html" \
+		--include-in-header "html/clarity.html" \
 		--output $@ \
 		$<
 
