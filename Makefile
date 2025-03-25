@@ -155,7 +155,7 @@ pages_html_files = $(pages_md_files:%.md=%.html)
 .PHONY: build-pages
 build-pages: $(pages_html_files)
 
-$(pages_html_files): %.html: %.md %.header.html %.footer.html html/humans.html html/meta.html html/favicon.html html/gtag.html html/jquery.html
+$(pages_html_files): %.html: %.md %.header.html %.footer.html html/humans.html html/meta.html html/favicon.html html/gtag.html html/clarity.html html/jquery.html
 	@pandoc \
 		--data-dir "$(PANDOC_DATA)" \
 		--from markdown+smart \
@@ -178,6 +178,7 @@ $(pages_html_files): %.html: %.md %.header.html %.footer.html html/humans.html h
 		--include-in-header "html/meta.html" \
 		--include-in-header "html/favicon.html" \
 		--include-in-header "html/gtag.html" \
+		--include-in-header "html/clarity.html" \
 		--include-in-header "html/jquery.html" \
 		--include-in-header "$(<:%.md=%.header.html)" \
 		--include-after-body "$(<:%.md=%.footer.html)" \
