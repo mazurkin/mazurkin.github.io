@@ -13,10 +13,10 @@ team management and Linux system administration.
 
 # resume
 
-| format |                               |                                    |                                |                                 |                                                                            |
-|--------|-------------------------------|------------------------------------|--------------------------------|---------------------------------|----------------------------------------------------------------------------|
-| 2-page | [PDF](/doc/resume/resume.pdf) | [MS Word](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt)  | [HTML](/doc/resume/resume.html) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
-| full   | [PDF](/doc/cv/cv.pdf)         | [MS Word](/doc/cv/cv.docx)         | [ODT](/doc/cv/cv.odt)          | [HTML](/doc/cv/cv.html)         | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/cv)     |
+| format |                               |                                 |                               |                                 |                                                                            |
+|--------|-------------------------------|---------------------------------|-------------------------------|---------------------------------|----------------------------------------------------------------------------|
+| 2-page | [PDF](/doc/resume/resume.pdf) | [WORD](/doc/resume/resume.docx) | [ODT](/doc/resume/resume.odt) | [HTML](/doc/resume/resume.html) | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/resume) |
+| full   | [PDF](/doc/cv/cv.pdf)         | [WORD](/doc/cv/cv.docx)         | [ODT](/doc/cv/cv.odt)        | [HTML](/doc/cv/cv.html)         | [all](https://github.com/mazurkin/mazurkin.github.io/tree/main/doc/cv)     |
 
 # contacts
 
