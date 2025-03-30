@@ -128,6 +128,36 @@ created the architecture of the service including SOA, custom search service, as
 push service (GCM), photo uploading/processing/distribution service, statistics and analytics
 (apache netty, apache cassandra, kafka, queues, messaging, mobile apps, python, machine learning).
 
+## HeadHunter Group
+
+[HeadHunter.ru](https://hh.ru), The largest job portal in Russia, Moscow, RU
+
+### Team lead, Software Developer (Jun 2011 — Oct 2012)
+
+Java · Linux · PostgreSQL · RabbitMQ · Maven · Spring Framework · Struts · XSLT · JSP · MemCached · Hibernate · Python
+
+- coordination of technical aspects of team work (5-6 members)
+- resource planning, requirement management, processing in agile and with scrum
+- release management (DEB and JAR artifacts, GIT branch control, GIT flow)
+- a lot of Java coding
+- hands on bugs and production issues
+
+## Luxoft/UBS
+
+Luxoft for UBS investment banks, Moscow, RU
+
+### Senior software developer (Jun 2010 — Jun 2011)
+
+Java · Linux · ZSH · Tibco · JMX · JMS · SQL · Oracle DB
+
+Data distribution and messaging system (RDDH) for UBS Bank
+
+- A lot of Java code created for RDDH messaging project
+- Database stored procedures, DB DDL and meta-data
+- Cluster management (ZSH scripts): architecture and implementation
+- Integration test suite was implemented for some legacy systems and components
+- Worked in the decentralized team (Moscow, Russia - London, UK)
+
 ## Internet Lotto Ltd
 
 The social network, Yoshkar-Ola, RU
@@ -139,7 +169,7 @@ Spring Core · Spring WS · Spring WebFlow · Spring Modules · Spring AOP · Sp
 iBatis · Velocity · JSP&JSTL · JMX · DWR · JUnit · EasyMock · Apache Lucene/Solr · Apache Ant ·
 JScript · jQuery · jQuery UI · Amazon S3 · Jetty · ImageMagick · MEncoder
 
-- Architecture and implementation of social network for poker players
+- Architecture and implementation of a social network for poker players
 - Coding
 - Database design and administration (MySQL)
 - Transparent integration with payment system moneta.ru
@@ -170,7 +200,7 @@ Java · J2EE · ORACLE & PL/SQL · Spring Core · Spring WebFlow · XSLT
 Delphi · Borland C/C++ · MS C/C++ · XML/XSLT · Firebird SQL Server · MS Access · MS Visual Basic ·
 Win32 API · CVS · ASM · i8051
 
-- Desktop software for chemical industry working with hardware devices
+- Desktop software for chemical industry working with hardware devices (Delphi, Borland C/C++, MS C/C++, XML/XSLT, Firebird SQL Server, MS Access, MS Visual Basic, Win32 API)
 - Digital electronic systems on i8051 architecture (schemes, printboards, software)
 - Real-time embedded i8051-software with C and Assembler.
 
