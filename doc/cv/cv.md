@@ -191,13 +191,15 @@ Performance fix for the protobuf java compiler: [pull request](https://github.co
 
 ## Mari State Technical University (1994 — 1999)
 
-Yoshkar-Ola, Russia, "Computing machines, complexes, systems, and networks",
-Engineer (with honors, equivalent to a master's degree)
+- Yoshkar-Ola, Russia, "Computing machines, complexes, systems, and networks"
+- Engineer (with honors, equivalent to a master's degree)
+- Graduation work: "Applying of wavelet transformation to results of gas-chromatography analysis"
 
 ## Mari State University (2002 — 2003)
 
-Yoshkar-Ola, Russia, «Anti-Crisis Management»,
-Anti-Crisis Manager
+- Yoshkar-Ola, Russia, «Anti-Crisis Management»
+- Anti-Crisis Manager
+- Graduation work: "Staff motivation methods at Chromatec LLC"
 
 ## Additional
 

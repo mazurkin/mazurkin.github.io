@@ -112,8 +112,9 @@ push service (GCM), photo uploading/processing/distribution service, statistics 
 
 ## Mari State Technical University (1994 — 1999)
 
-Yoshkar-Ola, Russia, "Computing machines, complexes, systems, and networks",
-Engineer (with honors, equivalent to a master's degree)
+- Yoshkar-Ola, Russia, "Computing machines, complexes, systems, and networks"
+- Engineer (with honors, equivalent to a master's degree)
+- Graduation work: "Applying of wavelet transformation to results of gas-chromatography analysis"
 
 # Open Source projects
 
