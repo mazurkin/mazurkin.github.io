@@ -26,13 +26,13 @@ declare -r REQ_FILE_MIME
 REQ_QUESTION="${3}"
 declare -r REQ_QUESTION
 
-GOOGLE_AI_MODEL="${GOOGLE_AI_MODEL:-gemini-2.0-flash}"
-declare -r GOOGLE_AI_MODEL
+GEMINI_API_MODEL="${GEMINI_API_MODEL:-gemini-2.0-flash}"
+declare -r GEMINI_API_MODEL
 
-GOOGLE_AI_REQUEST=$(mktemp)
-declare -r GOOGLE_AI_REQUEST
+GEMINI_API_REQUEST=$(mktemp)
+declare -r GEMINI_API_REQUEST
 
-cat > ${GOOGLE_AI_REQUEST} <<EOF
+cat > ${GEMINI_API_REQUEST} <<EOF
 {
   "contents": [
     {
@@ -60,13 +60,13 @@ echo "QUESTION: ${REQ_QUESTION}"
 echo "-----------------------------------------------------------------------------------------------------------------"
 echo ""
 
-curl "https://generativelanguage.googleapis.com/v1beta/models/${GOOGLE_AI_MODEL}:generateContent?key=${GOOGLE_AI_KEY}" \
+curl "https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_API_MODEL}:generateContent?key=${GEMINI_API_KEY}" \
         --silent \
         --max-time 300 \
         --header "Content-Type: application/json" \
         --request POST \
-        --data-binary "@${GOOGLE_AI_REQUEST}" \
+        --data-binary "@${GEMINI_API_REQUEST}" \
     | jq --raw-output ".candidates[0].content.parts[0].text" \
     | awk '{gsub(/\\n/,"\n")}1'
 
-rm "${GOOGLE_AI_REQUEST}"
+rm "${GEMINI_API_REQUEST}"
