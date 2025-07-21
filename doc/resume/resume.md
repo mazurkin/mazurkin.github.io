@@ -71,7 +71,9 @@ for HCP targeting.
 prescription data, enabling clients to select DTC audiences based on condition probability.
 - Developed a secure facade to access and process obfuscated clean-room data, providing
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
-- Implemented and delivered the gender prediction model (Python, Sklearn)
+- Implemented and delivered the gender prediction model (Bayes, SQL, Python, Sklearn)
+- Implemented the experimental win-rate model for the avails predictor (PyTorch)
+
 
 ## Deutsche Bank
 

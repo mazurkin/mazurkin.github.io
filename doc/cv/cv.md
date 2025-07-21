@@ -87,7 +87,8 @@ for HCP targeting.
 prescription data, enabling clients to select DTC audiences based on condition probability.
 - Developed a secure facade to access and process obfuscated clean-room data, providing
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
-- Implemented and delivered the gender prediction model (Python, Sklearn)
+- Implemented and delivered the gender prediction model (Bayes, SQL, Python, Sklearn)
+- Implemented the experimental win-rate model for the avails predictor (PyTorch)
 
 ## Deutsche Bank
 
@@ -198,7 +199,7 @@ Java · J2EE · ORACLE & PL/SQL · Spring Core · Spring WebFlow · XSLT
 ### Team lead, Software Developer, Electronics Engineer (1996 — 2007)
 
 Delphi · Borland C/C++ · MS C/C++ · XML/XSLT · Firebird SQL Server · MS Access · MS Visual Basic ·
-Win32 API · CVS · ASM · i8051
+Win32 API · CVS · ASM · i8051 · PCAD · OrCAD
 
 - Desktop software for chemical industry working with hardware devices (Delphi, Borland C/C++, MS C/C++, XML/XSLT, Firebird SQL Server, MS Access, MS Visual Basic, Win32 API)
 - Digital electronic systems on i8051 architecture (schemes, printboards, software)
