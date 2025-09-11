@@ -89,6 +89,7 @@ prescription data, enabling clients to select DTC audiences based on condition p
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
 - Implemented and delivered the gender prediction model (Bayes, SQL, Python, Sklearn)
 - Implemented the experimental win-rate model for the avails predictor (PyTorch)
+- Implemented the versioned ML model storage (Nginx, Python, Cherrypy)
 
 ## Deutsche Bank
 

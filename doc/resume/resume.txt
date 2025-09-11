@@ -106,6 +106,7 @@ optimizing performance for large-scale data processing.
     Python, Sklearn)
 -   Implemented the experimental win-rate model for the avails predictor
     (PyTorch)
+-   Implemented the versioned ML model storage (Nginx, Python, Cherrypy)
 
 Deutsche Bank
 
