@@ -1,4 +1,4 @@
-personal_ws-1.1 en 140 
+personal_ws-1.1 en 147 
 AOP
 ASM
 AVP
@@ -70,10 +70,13 @@ NumPy
 ODT
 Odnoklassniki
 OpenRTB
+Optuna
 OrCAD
 PCAD
+Plotly
 Protobuf
 PulsePoint
+Pytorch
 QPS
 RDDH
 RTB
@@ -87,9 +90,11 @@ SageMaker
 Scikit
 Sklearn
 Solr
+Streamlit
 TCP
 TSLint
 TeamCity
+Tensorboard
 TestContainers
 Tibco
 TypeScript
@@ -109,9 +114,11 @@ apache
 backend
 bayes
 cassandra
+cleanroom
 cv
 dbCAP
 dockerized
+embeddings
 gRPC
 gpg
 greencard
