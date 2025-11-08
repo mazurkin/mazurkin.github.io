@@ -1,4 +1,4 @@
-personal_ws-1.1 en 147 
+personal_ws-1.1 en 148 
 AOP
 ASM
 AVP
@@ -97,6 +97,7 @@ TeamCity
 Tensorboard
 TestContainers
 Tibco
+Trino
 TypeScript
 UDP
 UGC

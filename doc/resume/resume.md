@@ -74,8 +74,8 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the gender prediction model (Bayes, SQL, Python, Sklearn)
 - Implemented the experimental win-rate model for the avails predictor (PyTorch)
 - Implemented and delivered the versioned ML model storage (Nginx, Python, Cherrypy)
-- Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Pytorch, Optuna, Tensorboard)
-- Implemented and delivered the cleanroom prescription visualizer (Python, Streamlit, Plotly)
+- Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Trino, Pytorch, Optuna, Tensorboard)
+- Implemented and delivered the cleanroom prescription visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
 
 
 ## Deutsche Bank

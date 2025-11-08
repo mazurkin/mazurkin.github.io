@@ -125,9 +125,9 @@ optimizing performance for large-scale data processing.
 -   Implemented and delivered the versioned ML model storage (Nginx,
     Python, Cherrypy)
 -   Implemented and delivered the app store scraper with embeddings
-    (Python, Docker, K8S, Pytorch, Optuna, Tensorboard)
+    (Python, Docker, K8S, Trino, Pytorch, Optuna, Tensorboard)
 -   Implemented and delivered the cleanroom prescription visualizer
-    (Python, Streamlit, Plotly)
+    (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
 
 Deutsche Bank
 
