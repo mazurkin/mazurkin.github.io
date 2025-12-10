@@ -76,7 +76,7 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the versioned ML model storage (Nginx, Python, Cherrypy)
 - Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Trino, Pytorch, Optuna, Tensorboard)
 - Implemented and delivered the cleanroom prescription visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
-
+- Implemented and delivered the NPI embedding model for the doctors (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
 
 ## Deutsche Bank
 

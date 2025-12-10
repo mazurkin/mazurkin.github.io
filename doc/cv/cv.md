@@ -83,15 +83,16 @@ important pipelines and services (using Python, Hive, Impala, and Jupyter). Crea
 - Implemented and delivered to production the look-alike audience model (Python, Catboost, Luigi, K8S)
 - Developed a model to predict the quality of NPI attribution, enabling clients to select the confidence level
 for HCP targeting.
-- Developed a model to predict the quality of ICD10 attribution based on obfuscated and aggregated clean-room
+- Developed a model to predict the quality of ICD10 attribution based on obfuscated and aggregated clean-room medical data
 prescription data, enabling clients to select DTC audiences based on condition probability.
 - Developed a secure facade to access and process obfuscated clean-room data, providing
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
 - Implemented and delivered the gender prediction model (Bayes, SQL, Python, Sklearn)
-- Implemented the experimental win-rate model for the avails predictor (PyTorch)
+- Implemented the experimental win-rate model for the avails predictor (Python, PyTorch)
 - Implemented and delivered the versioned ML model storage (Nginx, Python, Cherrypy)
-- Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Trino, Pytorch, Optuna, Tensorboard)
-- Implemented and delivered the cleanroom prescription visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
+- Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Trino, PyTorch, Optuna, Tensorboard)
+- Implemented and delivered the cleanroom data visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
+- Implemented and delivered the NPI embedding model for the doctors (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
 
 ## Deutsche Bank
 
