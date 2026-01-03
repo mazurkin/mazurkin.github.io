@@ -3,7 +3,7 @@
 Nick Mazurkin — Software Engineer, Team Lead, Staff Engineer
 
 New York City, USA, greencard, +13477203170, career@mazurk.in, LinkedIn,
-GitHub, Resume
+GitHub, HF, Resume
 
 Java, Python, Web, DB, No-SQL, Linux, ML, AI, Cloud, K8S
 
@@ -115,6 +115,8 @@ optimizing performance for large-scale data processing.
 -   Implemented and delivered the NPI embedding model for the doctors
     (Python, Docker, PyTorch, Contrastive Learning, Google Big Query,
     Google Big Storage)
+-   Implemented and delivered the domain embedding model (Python,
+    Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
 
 Deutsche Bank
 

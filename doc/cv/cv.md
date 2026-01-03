@@ -4,7 +4,7 @@ pagetitle: Nick Mazurkin – cv
 
 # Nick Mazurkin — Software Engineer, Team Lead, Staff Engineer
 
-**New York City, USA**, greencard, [+13477203170](tel:+13477203170), [career@mazurk.in](mailto:career@mazurk.in), [LinkedIn](https://www.linkedin.com/in/mazurkin/), [GitHub](https://github.com/mazurkin/), [Resume](https://mazurk.in/#resume)
+**New York City, USA**, greencard, [+13477203170](tel:+13477203170), [career@mazurk.in](mailto:career@mazurk.in), [LinkedIn](https://www.linkedin.com/in/mazurkin/), [GitHub](https://github.com/mazurkin/), [HF](https://huggingface.co/mazurkin), [Resume](https://mazurk.in/#resume)
 
 **Java**, **Python**, **Web**, **DB**, **No-SQL**, **Linux**, **ML**, **AI**, **Cloud**, **K8S**
 
@@ -92,7 +92,8 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the versioned ML model storage (Nginx, Python, Cherrypy)
 - Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Trino, PyTorch, Optuna, Tensorboard)
 - Implemented and delivered the cleanroom data visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
-- Implemented and delivered the NPI embedding model for the doctors (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
+- Implemented and delivered the NPI embedding model for the HCP (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
+- Implemented and delivered the domain embedding model (Python, Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
 
 ## Deutsche Bank
 
