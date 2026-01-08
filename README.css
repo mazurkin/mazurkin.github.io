@@ -150,3 +150,27 @@ section#links ul li a {
     line-height: 20px;
     vertical-align: middle;
 }
+
+/* misc */
+
+section#misc ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+section#misc ul li {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+section#misc ul li img {
+    width: 16px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+section#misc ul li a {
+    line-height: 20px;
+    vertical-align: middle;
+}

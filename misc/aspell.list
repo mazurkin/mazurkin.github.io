@@ -1,4 +1,4 @@
-personal_ws-1.1 en 150 
+personal_ws-1.1 en 151 
 AOP
 ASM
 AVP
@@ -40,6 +40,7 @@ HDBSCAN
 HH
 HTTPd
 HeadHunter
+HuggingFace
 ICD
 ImageMagick
 JMS
