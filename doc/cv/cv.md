@@ -94,7 +94,8 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the cleanroom data visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
 - Implemented and delivered the NPI embedding model for the HCP (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
 - Implemented and delivered the domain embedding model (Python, Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
-
+- Implemented and delivered the semantic encoder with medical/health specialization (Python, PyTorch, multi-GPU)
+-
 ## Deutsche Bank
 
 [Deutsche Bank Technology Center](https://careers.db.com/explore-the-bank/careers-in-technology/), Moscow, RU
@@ -239,6 +240,7 @@ Performance fix for the protobuf java compiler: [pull request](https://github.co
 
 ## Additional
 
+- 2026, Retrieval Augmented Generation (RAG), [Coursera](https://coursera.org/share/d66dfb4f99de4c1f55ffb1bc299d871e)
 - 2024, Generative AI for Everyone, [Coursera](https://coursera.org/share/74724d743c380af897ad163fd16f89db)
 - 2024, Generative AI with Large Language Models, [Coursera](https://coursera.org/share/5dca9e0666132a0ff98b14f1acdeb32a)
 - 2020, Become a Manager, [LinkedIn](https://www.linkedin.com/learning/certificates/d26b46e09f65655bda807fc6ce379d231df2076aba8e1ce9d68a025a6e3711e1?trk=backfilled_certificate)

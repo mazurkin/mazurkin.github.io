@@ -64,78 +64,106 @@ optimizing performance for large-scale data processing.
     /app-ads.txt web resources, providing and enhancing transparency and
     trust for the SSP and DSP partners of our Exchange platform
     (processing ~500K domains daily, Java, Spring, Netty).
+
 -   Developed a supply prediction system for RTB traffic, enabling
     clients to switch to a cheaper self-serving platform (processing 24M
     documents daily using Lucene, Spring Framework and ML/CatBoost).
+
 -   Implemented a scoring model to effectively throttle proxy processing
     of incoming supply, selecting only 20% of the most profitable RTB
     requests and blocking 80% of the least profitable supply. This
     resulted in a 50% reduction in the number of required servers.
+
 -   Designed and implemented a DMP platform using asynchronous Java,
     gRPC, Cassandra, and Redis. This platform provides the effective
     solutions for targeting and optimization algorithms, accessing 30
     billion entities with a p99 latency of 5ms and a p50 latency of 1ms.
+
 -   Developed a standalone service for domain attribution, enabling
     efficient domain and application bundle targeting (achieving
     100k/sec QPS using gRPC and REST).
+
 -   Developed a client-side balancing library using the JSQ algorithm
     and circuit-breakers, significantly reducing client-server
     communication latency from p95=6ms to p95=1ms.
+
 -   Containerized and deployed a cluster of DoubleVerify service
     instances, achieving 300k/sec QPS in peak. Implemented custom
     client-side balancing and a low-latency custom client-to-cluster
     connection HTTP/REST library, enabling faster and easier deployments
     with efficient access.
+
 -   Developed a dockerized test infrastructure for custom configuration
     of Redis and Cassandra, similar to TestContainers, which facilitated
     the execution of integration tests.
+
 -   Developed a hierarchy of docker images for ~20 projects written in
     Python, Java, and Jupyter, significantly reducing the time required
     to create new projects.
+
 -   Developed an audience builder for 15 audiences, enabling our client
     to target very specific audiences with focus either on volume or
     accuracy (using Luigi, Hive, and ETL).
+
 -   Successfully resolved 2-3 support issues daily as part of a
     periodical 3rd-line technical on-call support rotation.
+
 -   Implemented several dozen RTB changes in the application stack,
     including improvements, new features, deployments, fixes, and
     monitoring (using Java, Netty, and Linux).
+
 -   Developed an engine for internal reports with embedded alerting,
     enabling transparent and quick monitoring of important pipelines and
     services (using Python, Hive, Impala, and Jupyter). Created 6
     internal engineering reports.
+
 -   Implemented 7 ETL pipelines in Python using Luigi, Docker, Hive, and
     Presto.
+
 -   Improved video-completion rate model by making it more accurate and
     stable (Python, Scikit-learn)
+
 -   Implemented and delivered to production the look-alike audience
     model (Python, Catboost, Luigi, K8S)
+
 -   Developed a model to predict the quality of NPI attribution,
     enabling clients to select the confidence level for HCP targeting.
+
 -   Developed a model to predict the quality of ICD10 attribution based
     on obfuscated and aggregated clean-room medical data prescription
     data, enabling clients to select DTC audiences based on condition
     probability.
+
 -   Developed a secure facade to access and process obfuscated
     clean-room data, providing a secure and efficient interface to
     private data (Python, Flask, Gunicorn, Google Cloud API).
+
 -   Implemented and delivered the gender prediction model (Bayes, SQL,
     Python, Sklearn)
+
 -   Implemented the experimental win-rate model for the avails predictor
     (Python, PyTorch)
+
 -   Implemented and delivered the versioned ML model storage (Nginx,
     Python, Cherrypy)
+
 -   Implemented and delivered the app store scraper with embeddings
     (Python, Docker, K8S, Trino, PyTorch, Optuna, Tensorboard)
+
 -   Implemented and delivered the cleanroom data visualizer (Python,
     Streamlit, Plotly, Google Big Query, Google Big Storage)
+
 -   Implemented and delivered the NPI embedding model for the HCP
     (Python, Docker, PyTorch, Contrastive Learning, Google Big Query,
     Google Big Storage)
+
 -   Implemented and delivered the domain embedding model (Python,
     Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
 
-Deutsche Bank
+-   Implemented and delivered the semantic encoder with medical/health
+    specialization (Python, PyTorch, multi-GPU)
+
+-   Deutsche Bank
 
 Deutsche Bank Technology Center, Moscow, RU
 
@@ -308,6 +336,7 @@ Mari State University (2002 — 2003)
 
 Additional
 
+-   2026, Retrieval Augmented Generation (RAG), Coursera
 -   2024, Generative AI for Everyone, Coursera
 -   2024, Generative AI with Large Language Models, Coursera
 -   2020, Become a Manager, LinkedIn
