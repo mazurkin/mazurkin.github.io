@@ -94,8 +94,8 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the cleanroom data visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
 - Implemented and delivered the NPI embedding model for the HCP (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
 - Implemented and delivered the domain embedding model (Python, Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
-- Implemented and delivered the semantic encoder with medical/health specialization (Python, PyTorch, multi-GPU)
--
+- Implemented and delivered the [semantic encoder](https://huggingface.co/mazurkin/medclinical) with medical/health specialization (Python, PyTorch, multi-GPU)
+
 ## Deutsche Bank
 
 [Deutsche Bank Technology Center](https://careers.db.com/explore-the-bank/careers-in-technology/), Moscow, RU
