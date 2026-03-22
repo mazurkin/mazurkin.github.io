@@ -135,7 +135,7 @@ optimizing performance for large-scale data processing.
 -   Implemented and delivered the domain embedding model (Python,
     Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
 -   Implemented and delivered the semantic encoder with medical/health
-    specialization (Python, PyTorch, multi-GPU)
+    specialization (Python, PyTorch, Lightning, Hugging Face, multi-GPU)
 
 Deutsche Bank
 
