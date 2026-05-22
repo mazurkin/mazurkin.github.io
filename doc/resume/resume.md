@@ -79,6 +79,7 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the NPI embedding model for the doctors (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
 - Implemented and delivered the domain embedding model (Python, Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
 - Implemented and delivered the [semantic encoder](https://huggingface.co/mazurkin/medclinical) with medical/health specialization (Python, PyTorch, Lightning, Hugging Face, multi-GPU)
+- Implemented and the [AI/LLM "Council" project](https://github.com/mazurkin/council) to build/improve ML model automatically base on the selected metrics (Python, ACP, Copilot CLI)
 
 ## Deutsche Bank
 

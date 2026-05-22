@@ -119,6 +119,9 @@ optimizing performance for large-scale data processing.
     Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
 -   Implemented and delivered the semantic encoder with medical/health
     specialization (Python, PyTorch, Lightning, Hugging Face, multi-GPU)
+-   Implemented and the AI/LLM “Council” project to build/improve ML
+    model automatically base on the selected metrics (Python, ACP,
+    Copilot CLI)
 
 Deutsche Bank
 

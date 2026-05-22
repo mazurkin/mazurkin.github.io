@@ -1,4 +1,5 @@
-personal_ws-1.1 en 151 
+personal_ws-1.1 en 154 
+ACP
 AOP
 ASM
 AVP
@@ -7,6 +8,7 @@ AdTech
 Aerospike
 Avro
 Borland
+CLI
 Cassanda
 CatBoost
 Catboost
@@ -55,6 +57,7 @@ KPI
 Kibana
 Kubernetes
 LLC
+LLM
 LVS
 LinkedIn
 Lucene
