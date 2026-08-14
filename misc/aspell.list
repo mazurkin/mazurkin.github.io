@@ -1,4 +1,4 @@
-personal_ws-1.1 en 154 
+personal_ws-1.1 en 158 
 ACP
 AOP
 ASM
@@ -32,9 +32,11 @@ EE
 ETL
 EasyMock
 EhCache
+FastAPI
 Firebird
 GC
 GCM
+GLiNER
 Graphana
 Gunicorn
 HCP
@@ -108,6 +110,7 @@ TypeScript
 UDP
 UGC
 UI
+UMLS
 Venmo
 Vertica
 WS
@@ -122,6 +125,7 @@ backend
 bayes
 cassandra
 cleanroom
+contextualizer
 cv
 dbCAP
 dockerized

@@ -122,6 +122,10 @@ optimizing performance for large-scale data processing.
 -   Implemented and the AI/LLM “Council” project to build/improve ML
     model automatically base on the selected metrics (Python, ACP,
     Copilot CLI)
+-   Implemented and delivered the medical contextualizer (Python,
+    PyTorch, Lightning, HF, Transformers, FastAPI, Docker, K8S)
+-   Implemented and delivered the medical entity extractor (Python,
+    PyTorch, GLiNER, HF, Transformers, UMLS, FastAPI, Docker, K8S)
 
 Deutsche Bank
 
