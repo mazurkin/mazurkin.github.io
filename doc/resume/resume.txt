@@ -155,31 +155,6 @@ Senior Software Java Engineer, AVP (Jun 2016 — Feb 2017)
     NPM, RxJs, TypeScript, TSLint, System.js, Rollup, jQuery,
     Bootstrap).
 
-OK.ru
-
-OK.ru, Moscow, RU, the one of the largest social networks (54 MAU)
-
-Senior Software Java Developer (Oct 2012 — May 2016)
-
--   Implemented a multiple features in the searching infrastructure of
-    the OK.ru service: backend services, data storages, relevancy
-    customization, indexation, replication (Apache Lucene, Spring
-    Framework, Web Services, SQL/noSQL, Linux)
--   Fixed multiple legacy issues in L12N infrastructure for the OK.ru
-    service including the resources editor, Java frameworks and workflow
-    process, achieved resource propagation to ~2000 servers.
--   Make significant contribution to the moderation and antispam
-    services, architecture and implementation, implemented NSFW
-    detector, spam detector (based on naive bayes detector), UGC filter
-    cluster (near real-time voting-quorum service).
--   Successfully designed, implemented and run the MVP for the startup
-    project (Tinder-alike) in very short time (3 months), created the
-    architecture of the service including SOA, custom search service,
-    asynchronous binary client protocol, push service (GCM), photo
-    uploading/processing/distribution service, statistics and analytics
-    (apache netty, apache cassandra, kafka, queues, messaging, mobile
-    apps, python, machine learning).
-
 Education
 
 Mari State Technical University (1994 — 1999)

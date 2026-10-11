@@ -1,0 +1,72 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+set -o monitor
+set -o noglob
+
+REQ_FILE_PATH="${1}"
+declare -r REQ_FILE_PATH
+
+REQ_FILE_MIME="${2}"
+declare -r REQ_FILE_MIME
+
+REQ_QUESTION="${3}"
+declare -r REQ_QUESTION
+
+ASSISTANT_API_MODEL="${ASSISTANT_API_MODEL:-google/gemini-3.8-flash}"
+declare -r ASSISTANT_API_MODEL
+
+ASSISTANT_API_KEY="${ASSISTANT_API_KEY:-${OPENROUTER_API_KEY}}"
+declare -r ASSISTANT_API_KEY
+
+ASSISTANT_API_EFFORT="${ASSISTANT_API_EFFORT:-medium}"
+declare -r ASSISTANT_API_EFFORT
+
+ASSISTANT_API_URL="https://openrouter.ai/api/v1/chat/completions"
+declare -r ASSISTANT_API_URL
+
+ASSISTANT_API_REQUEST=$(mktemp)
+declare -r ASSISTANT_API_REQUEST
+
+trap 'rm -f "${ASSISTANT_API_REQUEST}"' EXIT
+
+# images are passed as "image_url" parts, everything else (pdf, etc.) as "file" parts
+jq --null-input \
+    --arg model "${ASSISTANT_API_MODEL}" \
+    --arg effort "${ASSISTANT_API_EFFORT}" \
+    --arg question "You are an experienced HR professional evaluating candidates to the software engineering and/or managing position. ${REQ_QUESTION}" \
+    --arg mime "${REQ_FILE_MIME}" \
+    --arg filename "$(basename "${REQ_FILE_PATH}")" \
+    --rawfile data <(base64 -w0 "${REQ_FILE_PATH}") \
+    '{
+        model: $model,
+        temperature: 0.1,
+        reasoning: { effort: $effort },
+        messages: [
+            {
+                role: "user",
+                content: [
+                    { type: "text", text: $question },
+                    (
+                        "data:" + $mime + ";base64," + $data
+                        | if ($mime | startswith("image/"))
+                          then { type: "image_url", image_url: { url: . } }
+                          else { type: "file", file: { filename: $filename, file_data: . } }
+                          end
+                    )
+                ]
+            }
+        ]
+    }' > "${ASSISTANT_API_REQUEST}"
+
+curl "${ASSISTANT_API_URL}" \
+        --silent \
+        --compressed \
+        --max-time 300 \
+        --header "Authorization: Bearer ${ASSISTANT_API_KEY}" \
+        --header "Content-Type: application/json" \
+        --request POST \
+        --data-binary "@${ASSISTANT_API_REQUEST}" \
+    | jq --raw-output '.choices[0].message.content // error(.error.message // "unexpected response: \(tojson)")'

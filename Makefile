@@ -7,7 +7,7 @@ ROOT        = $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 ASPELL      = aspell --mode=markdown --lang=en --encoding=utf-8 --dont-backup --personal="$$(pwd)/misc/aspell.list"
 CHROME      = chromium
 QRENCODE    = qrencode --level=H --size=3 --dpi=72 --margin=0
-PANDOC_DATA = "$(ROOT)/misc/pandoc/data"
+PANDOC_DATA = $(ROOT)/misc/pandoc/data
 
 WEBSERVER_BIND = 127.0.0.1
 WEBSERVER_PORT = 9001
@@ -19,6 +19,9 @@ SITE_TITLE    = Nick Mazurkin
 SITE_SUBTITLE = [ the personal page ]
 
 GPG_USER      = n@mazurk.in
+
+export ASSISTANT_API_MODEL = google/gemini-3.8-flash
+export ASSISTANT_API_KEY   = ${OPENROUTER_API_KEY}
 
 # -----------------------------------------------------------------------------
 #
@@ -291,59 +294,63 @@ $(docs_pdf_files): %.pdf: %.html css/document.css
 
 # -----------------------------------------------------------------------------
 #
-# gemini
+# assistant
 #
 # -----------------------------------------------------------------------------
 
-.PHONY: gemini-avatar
-gemini-avatar:
-	@misc/helpers/gemini-evaluate "i/avatar.jpg" "image/jpeg" \
+.PHONY: assistant-avatar
+assistant-avatar:
+	@echo "*** AVATAR"
+	@misc/helpers/assistant "i/avatar.jpg" "image/jpeg" \
 		"Provided with the photo tell how the person on the photo look like?"
 
-.PHONY: gemini-evaluate
-gemini-evaluate:
-	@misc/helpers/gemini-evaluate "doc/resume/resume.pdf" "application/pdf" \
+.PHONY: assistant-evaluate
+assistant-evaluate:
+	@echo "*** EVALUATION"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
 		"Provided with the resume make summary of all strong and weak characteristics of the candidate?"
 
-.PHONY: gemini-specialty
-gemini-specialty:
-	@misc/helpers/gemini-evaluate "doc/resume/resume.pdf" "application/pdf" \
+.PHONY: assistant-specialty
+assistant-specialty:
+	@echo "*** SPECIALTY"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
 		"Provided with the resume explain the speciality of the candidate and how he could contribute to the company?"
 
-.PHONY: gemini-contacts
-gemini-contacts:
-	@misc/helpers/gemini-evaluate "doc/resume/resume.pdf" "application/pdf" \
+.PHONY: assistant-contacts
+assistant-contacts:
+	@echo "*** CONTACTS"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
 		"Provided with the resume check what type of contact information it has?"
 
-.PHONY: gemini-location
-gemini-location:
-	@misc/helpers/gemini-evaluate "doc/resume/resume.pdf" "application/pdf" \
+.PHONY: assistant-location
+assistant-location:
+	@echo "*** LOCATION"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
 		"Provided with the resume display where the candidate is located?"
 
-.PHONY: gemini-residency
-gemini-residency:
-	@misc/helpers/gemini-evaluate "doc/resume/resume.pdf" "application/pdf" \
+.PHONY: assistant-residency
+assistant-residency:
+	@echo "*** RESIDENCY"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
 		"Provided with the resume find out the migration status of the candidate in the United States?"
 
-.PHONY: gemini-style
-gemini-style:
-	@misc/helpers/gemini-evaluate "doc/resume/resume.pdf" "application/pdf" \
+.PHONY: assistant-style
+assistant-style:
+	@echo "*** STYLE"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
 		"Provided with the resume find and explain the stylistic errors? How the resume could be improved?"
 
-.PHONY: gemini
-gemini: gemini-avatar gemini-contacts gemini-location gemini-residency gemini-specialty gemini-evaluate gemini-style
+.PHONY: assistant-summary
+assistant-summary: export ASSISTANT_API_MODEL  = anthropic/claude-opus-5.5
+assistant-summary: export ASSISTANT_API_EFFORT = high
+assistant-summary:
+	@echo "*** SUMMARY"
+	@misc/helpers/assistant "doc/resume/resume.pdf" "application/pdf" \
+		"Take the last work experience and summarize if for the LinkedIn profile. The "Highlights" field must be up to 2000 characters, use 1950 of them. Use formal tone and plain ASCII text. Optimize the description for searching and mention all the keywords. Description only, no titles and years." \
+	| tee "$(ROOT)/llms.txt"
 
-.PHONY: gemini-15-flash
-gemini-15-flash: export GOOGLE_AI_MODEL = gemini-1.5-flash
-gemini-15-flash: gemini
-
-.PHONY: gemini-15-pro
-gemini-15-pro: export GOOGLE_AI_MODEL = gemini-1.5-pro
-gemini-15-pro: gemini
-
-.PHONY: gemini-20
-gemini-20: export GOOGLE_AI_MODEL = gemini-2.0-flash-exp
-gemini-20: gemini
+.PHONY: assistant
+assistant: assistant-avatar assistant-contacts assistant-location assistant-residency assistant-specialty assistant-evaluate assistant-style assistant-summary
 
 # -----------------------------------------------------------------------------
 #
