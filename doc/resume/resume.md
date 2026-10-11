@@ -12,8 +12,10 @@ pagetitle: Nick Mazurkin – resume
 
 [PulsePoint.com](https://www.pulsepoint.com/), AdTech, OpenRTB Exchange, DSP, DMP
 
-###  VP, Data Science, ML and Engineering team (Mar 2025 — PRESENT)
-###  Director, Data Science, ML and Engineering team (Apr 2020 — Mar 2025)
+### VP, Data Science, ML and Engineering team (Mar 2025 — PRESENT)
+### Director, Data Science, ML and Engineering team (Apr 2020 — Mar 2025)
+### Senior Software Engineer with Expertise in Java, Python, and ML (employee, Jan 2019 — PRESENT)
+### Senior Software Engineer with Expertise in Java, Python, and ML (remote contractor, Feb 2017 - Jan 2019)
 
 Led a team of 6 data scientists and 3 Java/Python engineers (DSE) working across 5 time zones, responsible
 for planning, performance tracking, coordination, and agile management. Proven ability to lead and mentor teams,
@@ -25,9 +27,6 @@ manage projects, and deliver results on time and within budget.
 - Provided interviewing, on-boarding, and mentoring for new team members.
 - Successfully coordinated and communicated with other teams and team leaders on numerous projects.
 - Successfully maintained an iterative Agile framework, including scrum, retrospectives, and prioritization of tasks.
-
-### Senior Software Engineer with Expertise in Java, Python, and ML (employee, Jan 2019 — PRESENT)
-### Senior Software Engineer with Expertise in Java, Python, and ML (remote contractor, Feb 2017 - Jan 2019)
 
 Experienced software engineer with a proven track record of developing and deploying high-performance applications
 using Java, Python, ML, Linux, and web technologies. Expertise in building and scaling distributed systems,
@@ -73,15 +72,16 @@ prescription data, enabling clients to select DTC audiences based on condition p
 a secure and efficient interface to private data (Python, Flask, Gunicorn, Google Cloud API).
 - Implemented and delivered the gender prediction model (Bayes, SQL, Python, Sklearn)
 - Implemented the experimental win-rate model for the avails predictor (PyTorch)
-- Implemented and delivered the versioned ML model storage (Nginx, Python, Cherrypy)
+- Implemented and delivered the versioned ML model storage (Nginx, Python, Cherrypy, Docker, K8S)
 - Implemented and delivered the app store scraper with embeddings (Python, Docker, K8S, Trino, Pytorch, Optuna, Tensorboard)
-- Implemented and delivered the cleanroom prescription visualizer (Python, Streamlit, Plotly, Google Big Query, Google Big Storage)
+- Implemented and delivered the cleanroom prescription visualizer (Python, Streamlit, Plotly, Google BigQuery, Google Big Storage)
 - Implemented and delivered the NPI embedding model for the doctors (Python, Docker, PyTorch, Contrastive Learning, Google Big Query, Google Big Storage)
-- Implemented and delivered the domain embedding model (Python, Docker, PyTorch, HDBSCAN, Google Big Query, Google Big Storage)
+- Implemented and delivered the domain embedding model (Python, Docker, PyTorch, HDBSCAN, Google BigQuery, Google Big Storage)
 - Implemented and delivered the [semantic encoder](https://huggingface.co/mazurkin/medclinical) with medical/health specialization (Python, PyTorch, Lightning, Hugging Face, multi-GPU)
 - Implemented and the [AI/LLM "Council" project](https://github.com/mazurkin/council) to build/improve ML model automatically base on the selected metrics (Python, ACP, Copilot CLI)
 - Implemented and delivered the medical contextualizer (Python, PyTorch, Lightning, HF, Transformers, FastAPI, Docker, K8S)
 - Implemented and delivered the medical entity extractor (Python, PyTorch, GLiNER, HF, Transformers, UMLS, FastAPI, Docker, K8S)
+- Implemented and delivered the new video completion rate model (Python, Java, Catboost, Google BigQuery, Docker, K8S)
 
 ## Deutsche Bank
 
