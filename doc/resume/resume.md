@@ -82,6 +82,7 @@ a secure and efficient interface to private data (Python, Flask, Gunicorn, Googl
 - Implemented and delivered the medical contextualizer (Python, PyTorch, Lightning, HF, Transformers, FastAPI, Docker, K8S)
 - Implemented and delivered the medical entity extractor (Python, PyTorch, GLiNER, HF, Transformers, UMLS, FastAPI, Docker, K8S)
 - Implemented and delivered the new video completion rate model (Python, Java, Catboost, Google BigQuery, Docker, K8S)
+- Implemented and delivered the data (competitor, NDC, ingredients, classes) resolver for the drug brand names (Python, MySQL, Claude Code, TDD, BDD, UMLS and OpenFDA data)
 
 ## Deutsche Bank
 
